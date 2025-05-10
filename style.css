@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fefefe;
+  color: #333;
+}
+header, footer {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.gallery, .videos {
+  padding: 2rem;
+}
+.photo-grid, .video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.photo-grid img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+.video-grid iframe {
+  border-radius: 8px;
+}
